@@ -1,3 +1,4 @@
+import UseClick from "./UseClick";
 import UseInput from "./UseInput";
 import UseTabs from "./UseTabs";
 import UseTitle from "./UseTitle";
@@ -8,6 +9,7 @@ const App = () => {
       <UseInput />
       <UseTabs />
       <UseTitle />
+      <UseClick />
     </div>
   );
 };
