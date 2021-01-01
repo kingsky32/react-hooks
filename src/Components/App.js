@@ -1,4 +1,5 @@
 import UseClick from "./UseClick";
+import UseConfirm from "./UseConfirm";
 import UseInput from "./UseInput";
 import UseTabs from "./UseTabs";
 import UseTitle from "./UseTitle";
@@ -10,6 +11,7 @@ const App = () => {
       <UseTabs />
       <UseTitle />
       <UseClick />
+      <UseConfirm />
     </div>
   );
 };
