@@ -3,6 +3,7 @@ import UseClick from "./UseClick";
 import UseConfirm from "./UseConfirm";
 import UseFullScreen from "./UseFullScreen";
 import UseInput from "./UseInput";
+import UseNotification from "./UseNotification";
 import UsePreventLeave from "./UsePreventLeave";
 import UseScroll from "./UseScroll";
 import UseTabs from "./UseTabs";
@@ -20,6 +21,7 @@ const App = () => {
       <UseBeforeLeave />
       <UseScroll />
       <UseFullScreen />
+      <UseNotification />
     </div>
   );
 };
