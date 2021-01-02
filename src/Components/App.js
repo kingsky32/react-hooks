@@ -1,6 +1,7 @@
 import UseBeforeLeave from "./UseBeforeLeave";
 import UseClick from "./UseClick";
 import UseConfirm from "./UseConfirm";
+import UseFullScreen from "./UseFullScreen";
 import UseInput from "./UseInput";
 import UsePreventLeave from "./UsePreventLeave";
 import UseScroll from "./UseScroll";
@@ -18,6 +19,7 @@ const App = () => {
       <UsePreventLeave />
       <UseBeforeLeave />
       <UseScroll />
+      <UseFullScreen />
     </div>
   );
 };
