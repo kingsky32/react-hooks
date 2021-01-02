@@ -1,3 +1,4 @@
+import UseBeforeLeave from "./UseBeforeLeave";
 import UseClick from "./UseClick";
 import UseConfirm from "./UseConfirm";
 import UseInput from "./UseInput";
@@ -14,6 +15,7 @@ const App = () => {
       <UseClick />
       <UseConfirm />
       <UsePreventLeave />
+      <UseBeforeLeave />
     </div>
   );
 };
