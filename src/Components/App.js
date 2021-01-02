@@ -1,3 +1,4 @@
+import UseAxios from "./UseAxios";
 import UseBeforeLeave from "./UseBeforeLeave";
 import UseClick from "./UseClick";
 import UseConfirm from "./UseConfirm";
@@ -22,6 +23,7 @@ const App = () => {
       <UseScroll />
       <UseFullScreen />
       <UseNotification />
+      <UseAxios />
     </div>
   );
 };
